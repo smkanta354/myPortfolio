@@ -1,0 +1,143 @@
+/*sidebar styles*/
+.sidebar{
+	background-color: #ECF0F1;
+	padding-top: 10px;
+	height: auto;
+}
+/*logo styles*/
+.logo{
+	width: 70%;
+	border: 1px solid #424242;
+	border-radius: 50%;
+}
+.sidelogo figcaption{
+	font-size: 26px;
+}
+.sidelogo span{
+	font-size: 16px;
+	color: #2196F3;
+}
+.sidebarList{
+	border-bottom: 2px solid #ccc;
+}
+.sidebarList li:hover{
+	background-color: #ccc;
+	border-radius: 5px;
+}
+.sidebarList li a:active{
+	color: red;
+}
+/*social media styles*/
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/*carsol*/
+#client-testimonial-carousel {
+	height:500px;
+}
+.homeData figure img{
+	width:100%;
+}
+#about p, .nameStyle{
+	color: #7F8C8D;
+}
+#about span{
+	color: black;
+	font-weight: bold;
+}
+.getInTouch span{
+	color: #757575;
+}
+.getInTouch i{
+	font-size: 24px;
+	text-align: center;
+	color: #2196F3;
+}
+.getInTouch{
+	background-color: #E0E0E0;
+	border-radius: 5px;
+}
+.getInTouch:first-child{
+	margin-top: 50%;
+}
+.getInTouchForm{
+	margin-top: 40%;
+}
+#contact h3, #education h3, #skills h3, #about h3, #experience h3, #work h3{
+	border-radius: 5px;
+	padding: 10px;
+}
+#experience div .faws, #work div .faws{
+	border-radius: 50%;
+	color: white;
+}
